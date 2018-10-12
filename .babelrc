@@ -1,0 +1,12 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "browsers": ["last 2 versions", "safari >= 7", "iOS >= 8"]
+            }
+        }], "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}
